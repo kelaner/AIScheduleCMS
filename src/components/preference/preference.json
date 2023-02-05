@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_preference_preferences",
+  "info": {
+    "displayName": "Preference",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Workday": {
+      "displayName": "Workday",
+      "type": "component",
+      "repeatable": false,
+      "component": "workday.workday",
+      "required": false
+    },
+    "Worktime": {
+      "displayName": "Worktime",
+      "type": "component",
+      "repeatable": false,
+      "component": "worktime.worktime",
+      "required": false
+    },
+    "Workshift": {
+      "displayName": "Workshift",
+      "type": "component",
+      "repeatable": false,
+      "component": "workshift.workshift",
+      "required": false
+    }
+  }
+}

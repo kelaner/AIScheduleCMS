@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_workday_workdays",
+  "info": {
+    "displayName": "Workday"
+  },
+  "options": {},
+  "attributes": {
+    "Mon": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Tue": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Wed": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Thu": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Fri": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Sat": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Sun": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

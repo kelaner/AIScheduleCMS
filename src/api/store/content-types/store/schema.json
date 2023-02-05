@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "singularName": "store",
+    "pluralName": "stores",
+    "displayName": "Store",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "areaMeasure": {
+      "type": "decimal",
+      "required": true
+    },
+    "staffs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::staff.staff",
+      "mappedBy": "store"
+    }
+  }
+}

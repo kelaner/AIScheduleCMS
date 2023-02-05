@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_worktime_worktimes",
+  "info": {
+    "displayName": "Worktime"
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "time",
+      "required": true,
+      "default": "00:00"
+    },
+    "end": {
+      "type": "time",
+      "required": true,
+      "default": "23:59"
+    }
+  }
+}

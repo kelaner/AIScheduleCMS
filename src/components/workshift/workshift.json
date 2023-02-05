@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_workshift_workshifts",
+  "info": {
+    "displayName": "Workshift"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "integer",
+      "default": 24,
+      "required": true,
+      "max": 24,
+      "min": 1
+    },
+    "week": {
+      "type": "integer",
+      "default": 168,
+      "required": true,
+      "max": 168,
+      "min": 1
+    }
+  }
+}

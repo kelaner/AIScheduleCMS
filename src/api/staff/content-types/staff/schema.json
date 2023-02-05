@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffs",
+  "info": {
+    "singularName": "staff",
+    "pluralName": "staffs",
+    "displayName": "Staff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "manager",
+        "assistantManager",
+        "leader",
+        "cashier",
+        "guide",
+        "storehouse"
+      ]
+    },
+    "telephone": {
+      "type": "biginteger",
+      "min": "10000000000",
+      "max": "99999999999"
+    },
+    "email": {
+      "type": "email"
+    },
+    "store": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::store.store",
+      "inversedBy": "staffs"
+    },
+    "Preference": {
+      "type": "component",
+      "repeatable": false,
+      "component": "preference.preference",
+      "required": false
+    }
+  }
+}
