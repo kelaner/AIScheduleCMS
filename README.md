@@ -8,13 +8,25 @@ email: cms@aischedule.com
 
 password: cms123CMS
 
-## `init`
+**clone后首先init，首次启动前需要build，添加静态文件后直接start即可**
+
+## init
 
 ```sh
 npm install
+# or
+yarn start
 ```
 
-## 启动
+## build
+
+```sh
+npm run build
+# or
+yarn build
+```
+
+## start
 
 ```sh
 npm run start
@@ -22,7 +34,7 @@ npm run start
 yarn start
 ```
 
-### `develop`
+### develop
 
 ```sh
 npm run develop
