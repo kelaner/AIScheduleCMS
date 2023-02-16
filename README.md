@@ -92,7 +92,7 @@ API描述
   - manager；门店经理
   - assistantManager；副经理
   - leader；小组长
-
+  
   - cashier；收银
 
   - guide；导购

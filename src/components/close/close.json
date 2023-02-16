@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_close_closes",
+  "info": {
+    "displayName": "Close",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "closeTime": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

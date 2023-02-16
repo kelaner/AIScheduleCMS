@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_traffic_traffic",
+  "info": {
+    "displayName": "Traffic"
+  },
+  "options": {},
+  "attributes": {
+    "traffic": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

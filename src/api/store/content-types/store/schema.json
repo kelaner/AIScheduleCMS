@@ -30,6 +30,12 @@
       "relation": "oneToMany",
       "target": "api::staff.staff",
       "mappedBy": "store"
+    },
+    "Rules": {
+      "displayName": "Rules",
+      "type": "component",
+      "repeatable": false,
+      "component": "rules.rules"
     }
   }
 }

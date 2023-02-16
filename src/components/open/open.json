@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_open_opens",
+  "info": {
+    "displayName": "Open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "openTime": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_rules_rules",
+  "info": {
+    "displayName": "Rules"
+  },
+  "options": {},
+  "attributes": {
+    "Traffic": {
+      "displayName": "Traffic",
+      "type": "component",
+      "repeatable": false,
+      "component": "traffic.traffic"
+    },
+    "Open": {
+      "displayName": "Open",
+      "type": "component",
+      "repeatable": false,
+      "component": "open.open"
+    },
+    "Close": {
+      "displayName": "Close",
+      "type": "component",
+      "repeatable": false,
+      "component": "close.close"
+    }
+  }
+}
