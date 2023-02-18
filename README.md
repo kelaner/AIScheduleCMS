@@ -15,7 +15,7 @@ password: cms123CMS
 ```sh
 npm install
 # or
-yarn start
+yarn install
 ```
 
 ## build
