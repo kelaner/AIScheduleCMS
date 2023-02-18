@@ -8,7 +8,7 @@ email: cms@aischedule.com
 
 password: cms123CMS
 
-**clone后首先init，首次启动前需要build，添加静态文件后直接start即可**
+**clone后首先init，首次启动前需要build，后直接start即可**
 
 ## init
 
