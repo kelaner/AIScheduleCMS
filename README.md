@@ -10,6 +10,8 @@ password: cms123CMS
 
 **clone后首先init，首次启动前需要build，后直接start即可**
 
+**init前请先确保本地配置有有效的python环境**
+
 ## init
 
 ```sh
